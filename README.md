@@ -2,7 +2,7 @@
 Finances ist eine Applikation welche es ermöglicht schnell und einfach Ausgaben sowie Einnahmen zu protokollieren und zu bearbeiten.
 
 ### Navigation
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/Navigation.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Navigation.PNG)
 
 Über die Navigation können wir alle Funktionen erreichen. Zu diesen gehören
 1. Transaktion hinzufügen
@@ -12,7 +12,7 @@ Finances ist eine Applikation welche es ermöglicht schnell und einfach Ausgaben
 5. Einstellungen
 
 ### [1] Transaktion hinzufügen
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/MainContentFragment.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/MainContentFragment.PNG)
 
 Dieses Eingabefeld ermöglicht das Protokollieren unseres Geldflusses. Dabei können die folgenden Informationen hinterlegt werden.
 1. Betrag
@@ -27,8 +27,8 @@ Zwingend notwendig ist ein Betrag. Fehlt dieser wird die Transaktion nicht gespe
 Mit dem Button "OK" veranlassen wir das Speichern der Eingabe. Mithilfe des Button "ABORT" werden alle Eingabefelder geleert.
 
 ### [2 & 3]
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/Create_Account.PNG)
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/Account_Balance.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Create_Account.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Account_Balance.PNG)
 
 Ein Konto benötigt zum erfolgreichen erstellen **sowohl** einen Namen **als auch** den aktuellen Kontostand.
 Bestätigt wird hier mit dem "ADD" Button.
@@ -39,8 +39,8 @@ Um ein Konto zu entfernen muss der entsprechende Eintrag ausgewählt werden und 
 Alle Transaktionen die an das gelöschte Konto gekoppelt sind bleiben unverändert.
 
 ### [4] Transaktionsverlauf
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/Transactions.PNG)
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/Transactions-Settings.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Transactions.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Transactions-Settings.PNG)
 
 Hier können wir die in *[1]* erstellen Einträge auflisten. Diese sind standardmäßig auf sieben Einträgen limitiert,
 falls dies nicht genügt können wir über das *Optionsmenu* weitere Transaktionen auflisten lassen.
@@ -54,7 +54,7 @@ durch eine leichte Graufärbung zu erkennen. Der Button "DELETE" löscht die mar
 Activity, welche das identische Layout aus *[1]* verwendet. Über diese Activity können wir jedes mögliche Feld nach belieben bearbeiten.
 
 ### [5] Einstellungen
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/Settings.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Settings.PNG)
 
 Folgende Einstellungen stehen zur Auswahl
 1. Benutzername
@@ -65,7 +65,7 @@ Bei einer Änderung des Benutzernamens, wird dieser in der Navigation angezeigt.
 Der Incognito-Modus markiert jede getätigte Transaktion als *vertraulich*. Transaktionen, welche in diesem Modus getätigt werden,
 sind nur in diesem Modus im Transaktionsverlauf sichtbar. Alle anderen Transaktionen sind selbsverständlich weiterhin einsehbar.
 
-![alt text](https://github.com/droidprog17/abschlussprojekt-BashkimHHU/blob/master/Markdown/Notification.PNG)
+![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Notification.PNG)
 
 ### About
 Name: Bashkim Berzati, MatrNr: 2170064
