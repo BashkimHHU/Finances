@@ -1,0 +1,101 @@
+<resources>
+    <!-- Navigation-Bar -->
+    <string name="openNav">Open Navigation</string>
+    <string name="closeNav">Close Navigation</string>
+    <string name="app_name">Finances</string>
+    <string name="nav_username_default">Unknown User</string>
+    <string name="nav_text">Navigation</string>
+    <string name="nav_account_status">Account Balance</string>
+    <string name="nav_transaction_history">Transaction History</string>
+    <string name="nav_transaction_add">New Transaction</string>
+    <string name="nav_account_add">Create Account</string>
+    <string name="settings">Settings</string>
+
+    <!-- Main-Content -->
+    <string name="finances_title">Title</string>
+    <string name="finances_category">Category</string>
+    <string name="finances_account">Account</string>
+    <string name="finances_notes">Additional Information</string>
+    <string name="finances_add_button">Ok</string>
+    <string name="finances_abort_button">Abort</string>
+    <string name="finances_currency">€</string>
+    <string-array name="finances_type">
+        <item>@string/type_spend</item>
+        <item>@string/type_earned</item>
+    </string-array>
+    <string name="type_spend">Spend</string>
+    <string name="type_earned">Earned</string>
+
+    <!-- Date-Activity -->
+    <string name="date_ok_button">OK</string>
+    <string name="date_abort_button">ABORT</string>
+
+    <!-- Category-Fragment -->
+    <string name="category_apartment">Apartment</string>
+    <string name="category_barber">Barber</string>
+    <string name="category_car">Car</string>
+    <string name="category_cinema">Cinema</string>
+    <string name="category_clothes">Clothes</string>
+    <string name="category_club">Club</string>
+    <string name="category_concert">Concert</string>
+    <string name="category_cosmetics">Cosmetics</string>
+    <string name="category_electronics">Electronics</string>
+    <string name="category_excursion">Excursion</string>
+    <string name="category_food">Food</string>
+    <string name="category_fuel">Fuel</string>
+    <string name="category_furniture">Furniture</string>
+    <string name="category_games">Games</string>
+    <string name="category_hygiene">Hygiene</string>
+    <string name="category_job">Job</string>
+    <string name="category_kids">Kids</string>
+    <string name="category_medicine">Medicine</string>
+    <string name="category_other">Other</string>
+    <string name="category_payment">Payment</string>
+    <string name="category_phone">Phone</string>
+    <string name="category_pub">Pub</string>
+    <string name="category_rent">Rent</string>
+    <string name="category_repairs">Repairs</string>
+    <string name="category_vacation">Vacation</string>
+
+    <!-- Create_Account-Fragment -->
+    <string name="create_account_name">Name of the Account</string>
+    <string name="create_account_balance">Account Balance</string>
+    <string name="create_account_addbutton">ADD</string>
+
+    <!-- Preference Fragment Settings -->
+    <string name="settings_category_name">Settings</string>
+    <string name="settings_user_name">Type in your Name</string>
+    <string name="settings_value_privacy">Enable Incognito Mode</string>
+
+    <!-- Transactions Option Menu -->
+    <string name="transactions_any">All Transactions</string>
+    <string name="transactions_30">Last 30 Transactions</string>
+    <string name="transactions_14">Last 14 Transactions</string>
+    <string name="transactions_7">Last 7 Transactions</string>
+    <string name="transactions_search">Search</string>
+    <string name="transactions_search_hint">Filter Results</string>
+
+    <!-- Transactions Activity -->
+    <string name="transactions_delete_button">Delete</string>
+    <string name="transactions_inspect_button">Inspect</string>
+
+    <!-- Account Balance Activity -->
+    <string name="account_delete_button">Delete</string>
+
+    <!-- User Feedback -->
+    <string name="toast_missing_input">Please provide a Amount</string>
+    <string name="toast_insert_successfully">Input saved!</string>
+    <string name="toast_insert_failed">Upps! Failed to save Input</string>
+    <string name="notification_incognito_title">Incognito!</string>
+    <string name="notification_incognito_text">
+        All transaction made are only visible in this mode
+    </string>
+    <string name="toast_deletion_successfully">Transaction deleted!</string>
+    <string name="toast_deletion_acc_successfully">Account deleted!</string>
+    <string name="dialog_delete">Delete selected Transaction?</string>
+    <string name="dialog_delete_account">Delete selected Account?</string>
+    <string name="toast_update_successfully">Transaction updated!</string>
+    <string name="toast_acc_name">No Account name found</string>
+    <string name="toast_acc_balance">Please provide your Account balance</string>
+
+</resources>

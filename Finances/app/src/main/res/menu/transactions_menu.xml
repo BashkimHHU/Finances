@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/transactions_menuItem_any"
+            android:title="@string/transactions_any"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/transactions_menuItem_30"
+            android:title="@string/transactions_30"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/transactions_menuItem_14"
+            android:title="@string/transactions_14"
+            app:actionLayout="@layout/switch_item" />
+        <item
+            android:id="@+id/transactions_menuItem_7"
+            android:title="@string/transactions_7"
+            android:checked="true"
+            app:actionLayout="@layout/switch_item" />
+    </group>
+    <item
+        android:id="@+id/transactions_menuItem_search"
+        android:title="@string/transactions_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView"/>
+</menu>

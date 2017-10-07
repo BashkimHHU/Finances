@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_transaction"
+            android:checked="false"
+            android:title="@string/nav_transaction_add"
+            android:icon="@drawable/ic_add_shopping_cart_black_24dp"/>
+        <item
+            android:id="@+id/nav_add_account"
+            android:checked="false"
+            android:title="@string/nav_account_add"
+            android:icon="@drawable/ic_account_balance_black_24dp"/>
+        <item
+            android:id="@+id/nav_accountbalance"
+            android:checked="false"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="@string/nav_account_status" />
+            android:icon="@drawable/ic_account_balance_black_24dp"/>
+        <item
+            android:id="@+id/nav_transaction_status"
+            android:checked="false"
+            android:title="@string/nav_transaction_history"
+            android:icon="@drawable/ic_payment_black_24dp"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:checked="false"
+            android:title="@string/settings"
+            android:icon="@drawable/ic_settings_black_24dp"/>
+    </group>
+</menu>

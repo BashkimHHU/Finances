@@ -1,0 +1,39 @@
+general:
+  build_dir: Finances
+
+dependencies:
+  pre:
+    - echo y | android update sdk --no-ui --all --filter build-tools-25.0.3
+    - echo y | android update sdk --no-ui --all --filter tools
+    - echo y | android update sdk --no-ui --all --filter platform-tools
+    - echo y | android update sdk --no-ui --all --filter android-25
+    - echo y | android update sdk --no-ui --all --filter extra-android-m2repository
+    - echo y | android update sdk --no-ui --all --filter "tool,extra-android-m2repository,extra-android-support,extra-google-google_play_services,extra-google-m2repository"
+    - echo y | $ANDROID_HOME/tools/bin/sdkmanager "extras;m2repository;com;android;support;constraint;constraint-layout-solver;1.0.2"
+
+test:
+  override:
+    # run JUnit tests
+    - ./gradlew --no-daemon test
+    
+    # start the emulator after running the JUnit tests
+    - emulator -engine classic -no-audio -no-window -avd circleci-android22:
+        background: true
+        parallel: true
+
+    # wait for the emulator to have booted
+    - circle-android wait-for-boot
+    # unlock the emulator screen
+    - sleep 30
+    - adb shell input keyevent 82
+    # run tests against the emulator.
+    - ./gradlew --no-daemon connectedAndroidTest -PdisablePreDex
+
+  post:
+    # copy the build outputs to artifacts
+    - cp -r app/build/outputs $CIRCLE_ARTIFACTS
+    # copy the test results to the test results directory.
+    - cp -r app/build/outputs/androidTest-results/* $CIRCLE_TEST_REPORTS
+    # copy JUnit results
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - find . -type f -regex ".*/build/test-results/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
