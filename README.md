@@ -68,7 +68,6 @@ sind nur in diesem Modus im Transaktionsverlauf sichtbar. Alle anderen Transakti
 ![alt text](https://github.com/BashkimHHU/Finances/blob/master/Markdown/Notification.PNG)
 
 ### About
-Name: Bashkim Berzati, MatrNr: 2170064
 
 Alle in dieser Arbeit verwendeten Icons stammen aus: https://material.io/
 
